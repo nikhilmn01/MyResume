@@ -1,0 +1,16 @@
+.contactMe_nav
+{
+  position: absolute;
+  right: 10%;
+}
+
+.sticky-top{
+  position: fixed;
+top: 0;
+width: 100%;
+}
+
+.skills_table_1,.skills_table_2
+{
+  list-style-type: none;
+}
