@@ -1,16 +1,66 @@
-.contactMe_nav
+/* .contactMe_nav
 {
   position: absolute;
   right: 10%;
-}
-
-.sticky-top{
+} */
+/* .sticky-top{
   position: fixed;
 top: 0;
 width: 100%;
+} */
+.skills_table_1, .skills_table_2 {
+  list-style-type: none;
 }
 
-.skills_table_1,.skills_table_2
-{
-  list-style-type: none;
+.nav-item {
+  padding-left: 3.5%;
+}
+
+.navElement {
+  width: max-content;
+}
+
+.brandName {
+  font-family: 'Mina', sans-serif;
+}
+
+/* Intro Section */
+.nvg_body_txt {
+  /* background-color: blue; */
+  margin-top: 7%;
+  height: 35rem;
+}
+
+.line1 {
+  /* background-color: red; */
+  font-size: 800%;
+  position: relative;
+  left: 15%;
+  font-family: 'Parisienne', cursive;
+}
+
+.line2 {
+  /* background-color: yellow; */
+  font-size: 450%;
+  position: relative;
+  top: 35%;
+  left: -14%;
+  font-family: 'Mali', cursive;
+}
+
+.line3 {
+  /* background-color: yellow; */
+  font-size: 175%;
+  position: relative;
+  top: 52%;
+  left: -36%;
+  font-family: 'Satisfy', cursive;
+}
+
+.myPic{
+  height: 29rem;
+  position: absolute;
+  top: 9rem;
+  right: 13rem;
+  border-radius: 15%;
 }
