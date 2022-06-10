@@ -20,9 +20,9 @@ width: 100%;
   width: max-content;
 }
 
-.brandName {
+/* .brandName {
   font-family: 'Mina', sans-serif;
-}
+} */
 
 /* Intro Section */
 .nvg_body_txt {
@@ -35,32 +35,107 @@ width: 100%;
   /* background-color: red; */
   font-size: 800%;
   position: relative;
-  left: 15%;
+  left: 5%;
   font-family: 'Parisienne', cursive;
 }
 
 .line2 {
   /* background-color: yellow; */
-  font-size: 450%;
+  font-size: 395%;
   position: relative;
-  top: 35%;
-  left: -14%;
+  top: 9%;
+  left: 21%;
   font-family: 'Mali', cursive;
+  width: max-content;
 }
 
 .line3 {
   /* background-color: yellow; */
   font-size: 175%;
-  position: relative;
-  top: 52%;
-  left: -36%;
-  font-family: 'Satisfy', cursive;
+      position: relative;
+      top: 20%;
+      left: 22%;
+      font-family: 'Satisfy', cursive;
 }
 
 .myPic{
   height: 29rem;
-  position: absolute;
+  position: relative;
   top: 9rem;
-  right: 13rem;
+  left: 28%;
   border-radius: 15%;
+}
+
+/* Profile */
+
+#Profile{
+  padding-top: 7%;
+  text-align: center;
+  padding-bottom: 2%
+}
+
+.title{
+
+  font-family: 'Roboto Mono', monospace;
+  padding-bottom: 3%;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.profile_details{
+  /* font-family: 'Dosis', sans-serif; */
+  font-family: 'Space Mono', monospace;
+      font-weight: 500;
+      font-size: 1.5rem;
+
+}
+
+.profile_details2{
+  /* font-family: 'Dosis', sans-serif; */
+  font-family: 'Space Mono', monospace;
+  font-weight: 500;
+}
+
+.profile_details_sub{
+  position: relative;
+  width: fit-content;
+  top: 1rem;
+  left: 18rem;
+  text-align: left;
+}
+
+.profile_summary_sub{
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+padding-right: 13rem;
+font-size: 1.3rem;
+}
+
+/* .col-md-12 .profile_summary_sub{
+  background-color: red;
+} */
+
+/* Skills Overview */
+#Skills_Overview
+{
+  padding-top: 6rem;
+  text-align: center;
+}
+
+.Skills_Overview_div{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.Skills_Overview_img{
+  font-size: 5rem;
+      padding-bottom: 30px;
+      color: #5a7cfd;
+      padding-top: 5%;
+}
+
+.Skills_Overview_element{
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
 }
