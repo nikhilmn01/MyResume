@@ -1,5 +1,0 @@
-skills overview:
-
--Modals
--collapse
--Bootstrap 5 Crash Course Tutorial #16 - Modals(https://www.youtube.com/watch?v=tt5uUMQgzl0&ab_channel=TheNetNinja)

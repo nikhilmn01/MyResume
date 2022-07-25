@@ -8,53 +8,77 @@
 top: 0;
 width: 100%;
 } */
-
-body{
+body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
-#Navigation_Bar{
+
+#Navigation_Bar {
   padding-top: 4rem;
   background-color: #d5e5ff;
 }
 
-#Profile{
+#Profile {
   background-color: #ffffff;
 }
-#Skills_Overview{
+
+#Skills_Overview {
   background-color: #e3e3e3;
   padding-bottom: 3rem;
 }
-#Professional_Experience{
+
+#Professional_Experience {
   background-color: #f5f8ff;
   padding-bottom: 6rem;
 }
-#Internships{
+
+#Internships {
   background-color: #e3e3e3;
   padding-bottom: 12rem;
 }
-#Skills{
+
+#Skills {
   background-color: #f5f8ff;
   padding-bottom: 10rem;
 }
-#Education{
+
+#Education {
   background-color: #e3e3e3;
   padding-bottom: 8rem;
 }
-#Academic_Projects{
+
+#Academic_Projects {
   background-color: #f5f8ff;
   padding-bottom: 12rem;
 }
-#Additional_Info{
+
+#Additional_Info {
   background-color: #e3e3e3;
 }
-#Certifications{
+
+#Certifications {
   background-color: #f5f8ff;
 }
-#Contact_Me{
+
+#Contact_Me {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+
+.cloudImg1 {
+  position: absolute;
+  z-index: 1;
+  right: 5rem;
+  width: 15%;
+}
+
+.cloudImg2 {
+  position: relative;
+  z-index: 1;
+  left: 5rem;
+  width: 15%;
+}
+
 .skills_table_1, .skills_table_2 {
   list-style-type: none;
 }
@@ -75,7 +99,6 @@ body{
   /* background-color: blue; */
   margin-top: 7%;
   height: 35rem;
-
 }
 
 .line1 {
@@ -84,7 +107,7 @@ body{
   /* position: relative;
   left: 5%; */
   font-family: 'Parisienne', cursive;
-  text-align:center;
+  text-align: center;
   padding-bottom: 2%;
 }
 
@@ -96,7 +119,7 @@ body{
   left: 21%; */
   font-family: 'Mali', cursive;
   /* width: max-content; */
-  text-align:center;
+  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -107,7 +130,7 @@ body{
   top: 20%;
   left: 22%; */
   font-family: 'Satisfy', cursive;
-  text-align:center;
+  text-align: center;
 }
 
 .myPic {
@@ -169,6 +192,10 @@ body{
   text-align: center;
 }
 
+.fa-star {
+  color: #5a7cfd;
+}
+
 .Skills_Overview_div {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
@@ -192,17 +219,16 @@ body{
   padding-top: 5rem;
   text-align: center;
 } */
-
-.Professional_Experience_carousel{
+.Professional_Experience_carousel {
   /* font-family: 'Poppins', sans-serif; */
 }
 
-.h3_title{
+.h3_title {
   font-weight: 400;
   line-height: 2;
 }
 
-.h4_subtitle{
+.h4_subtitle {
   font-weight: 300;
   line-height: 2.5;
 }
@@ -216,42 +242,39 @@ body{
 }
 
 /* Internships */
-
 /* #Internships{
   text-align: center;
   padding-top: 7rem;
 } */
-
 /* Skills */
-
 /* #Skills{
   text-align: center;
   padding-top: 7rem;
 } */
-.card{
+.card {
   margin: auto;
-/* width: 50%; */
-padding: 10px;
-padding-bottom: 1.5rem;
-border-radius: 10px;
-box-shadow: 1px 1px 10px rgb(0 0 0 / 50%);
+  /* width: 50%; */
+  padding: 10px;
+  padding-bottom: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgb(0 0 0 / 50%);
 }
 
-.card1{
+.card1 {
   margin-bottom: 3rem;
-      margin-left: 2rem;
-      margin-right: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
-.courseCard{
+.courseCard {
   margin-bottom: 7rem;
 }
 
-.row{
+.row {
   margin-left: 3%;
 }
-/* Skills */
 
+/* Skills */
 /* .skill_title{
   text-align: justify;
 }
@@ -259,96 +282,101 @@ box-shadow: 1px 1px 10px rgb(0 0 0 / 50%);
 .skill_score{
   text-align: right
 } */
+.textField {
+  height: 10rem;
+}
 
-.contactMeImgDiv{
+.contactMeImgDiv {
   padding-left: 1rem;
 }
 
-.tempCard{
+.tempCard {
   border-radius: 0.5rem;
-  background-color: #7AACFF;
+  /* background-color: #7AACFF; */
+  background-color: #386FA4;
 }
-.contactMeCard{
+
+.contactMeCard {
   border-radius: 1rem;
 }
 
-.contactMeImg{
+.contactMeImg {
   width: 85%;
   border-radius: 1rem;
 }
 
 /* Footer */
-
 .bg-footer {
-    background-color: #33383c;
-    padding: 50px 0 30px;
+  background-color: #33383c;
+  padding: 50px 0 30px;
 }
+
 .footer-heading {
-    letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 
 .footer-link a {
-    color: #acacac;
-    line-height: 40px;
-    font-size: 14px;
-    transition: all 0.5s;
+  color: #acacac;
+  line-height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
 }
 
 .footer-link a:hover {
-    color: #1bbc9b;
+  color: #1bbc9b;
 }
 
 .contact-info {
-    color: #acacac;
-    font-size: 14px;
+  color: #acacac;
+  font-size: 14px;
 }
 
 .footer-social-icon {
-    font-size: 15px;
-    height: 34px;
-    width: 34px;
-    line-height: 34px;
-    border-radius: 3px;
-    text-align: center;
-    display: inline-block;
+  font-size: 15px;
+  height: 34px;
+  width: 34px;
+  line-height: 34px;
+  border-radius: 3px;
+  text-align: center;
+  display: inline-block;
 }
 
 .facebook {
-    background-color: #4e71a8;
-    color: #ffffff;
+  background-color: #4e71a8;
+  color: #ffffff;
 }
 
 .instagram {
-    background-color: #ffffff;
-    color: #e95950;
+  background-color: #ffffff;
+  color: #e95950;
 }
 
 .linkedIn {
-    background-color: #0072b1;
-    color: #ffffff;
+  background-color: #0072b1;
+  color: #ffffff;
 }
 
 .apple {
-    background-color: #424041;
-    color: #ffffff;
+  background-color: #424041;
+  color: #ffffff;
 }
 
 .footer-alt {
-    color: #acacac;
+  color: #acacac;
 }
 
 .footer-heading {
-    position: relative;
-    padding-bottom: 12px;
+  position: relative;
+  padding-bottom: 12px;
 }
 
 .footer-heading:after {
-    content: '';
-    width: 25px;
-    border-bottom: 1px solid #FFF;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    display: block;
-    border-bottom: 1px solid #1bbc9b;
+  content: '';
+  width: 25px;
+  border-bottom: 1px solid #FFF;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  border-bottom: 1px solid #1bbc9b;
 }
