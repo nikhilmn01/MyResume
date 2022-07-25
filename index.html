@@ -790,7 +790,7 @@
 
   <section id="Contact_Me">
     <section class="container mt-5">
-      <form action="mail.php" method="post">
+      <form onsubmit="sendEmail(); reset(); return false;" method="post">
         <div class="row">
           <!--Grid column-->
           <div class="col-sm-12 mb-4 col-lg-8 mx-auto contactMeCardDiv">
@@ -848,6 +848,24 @@
     </section>
 
   </section>
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+  function sendEmail(){
+    Email.send({
+    Host : "smtp.gmail.com",
+    Username : "nikhil.mn.resume@gmail.com",
+    Password : "Nikhil@1234",
+    To : 'nikhilmn01@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "New content from resume website",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+  }
+
+  </script>
 
   <footer class="section bg-footer">
           <div class="container">
