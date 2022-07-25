@@ -8,12 +8,59 @@
 top: 0;
 width: 100%;
 } */
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+#Navigation_Bar{
+  padding-top: 4rem;
+  background-color: #d5e5ff;
+}
+
+#Profile{
+  background-color: #ffffff;
+}
+#Skills_Overview{
+  background-color: #e3e3e3;
+  padding-bottom: 3rem;
+}
+#Professional_Experience{
+  background-color: #f5f8ff;
+  padding-bottom: 6rem;
+}
+#Internships{
+  background-color: #e3e3e3;
+  padding-bottom: 12rem;
+}
+#Skills{
+  background-color: #f5f8ff;
+  padding-bottom: 10rem;
+}
+#Education{
+  background-color: #e3e3e3;
+  padding-bottom: 8rem;
+}
+#Academic_Projects{
+  background-color: #f5f8ff;
+  padding-bottom: 12rem;
+}
+#Additional_Info{
+  background-color: #e3e3e3;
+}
+#Certifications{
+  background-color: #f5f8ff;
+}
+#Contact_Me{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
 .skills_table_1, .skills_table_2 {
   list-style-type: none;
 }
 
 .nav-item {
-  padding-left: 3.5%;
+  padding-left: 2.5%;
 }
 
 .navElement {
@@ -23,42 +70,47 @@ width: 100%;
 /* .brandName {
   font-family: 'Mina', sans-serif;
 } */
-
 /* Intro Section */
 .nvg_body_txt {
   /* background-color: blue; */
   margin-top: 7%;
   height: 35rem;
+
 }
 
 .line1 {
   /* background-color: red; */
   font-size: 800%;
-  position: relative;
-  left: 5%;
+  /* position: relative;
+  left: 5%; */
   font-family: 'Parisienne', cursive;
+  text-align:center;
+  padding-bottom: 2%;
 }
 
 .line2 {
   /* background-color: yellow; */
   font-size: 395%;
-  position: relative;
+  /* position: relative;
   top: 9%;
-  left: 21%;
+  left: 21%; */
   font-family: 'Mali', cursive;
-  width: max-content;
+  /* width: max-content; */
+  text-align:center;
+  padding-bottom: 3%;
 }
 
 .line3 {
   /* background-color: yellow; */
   font-size: 175%;
-      position: relative;
-      top: 20%;
-      left: 22%;
-      font-family: 'Satisfy', cursive;
+  /* position: relative;
+  top: 20%;
+  left: 22%; */
+  font-family: 'Satisfy', cursive;
+  text-align:center;
 }
 
-.myPic{
+.myPic {
   height: 29rem;
   position: relative;
   top: 9rem;
@@ -67,36 +119,33 @@ width: 100%;
 }
 
 /* Profile */
-
-#Profile{
+#Profile {
   padding-top: 7%;
   text-align: center;
   padding-bottom: 2%
 }
 
-.title{
-
+.title {
   font-family: 'Roboto Mono', monospace;
   padding-bottom: 3%;
   font-size: 3rem;
   text-align: center;
 }
 
-.profile_details{
+.profile_details {
   /* font-family: 'Dosis', sans-serif; */
   font-family: 'Space Mono', monospace;
-      font-weight: 500;
-      font-size: 1.5rem;
-
+  font-weight: 500;
+  font-size: 1.5rem;
 }
 
-.profile_details2{
+.profile_details2 {
   /* font-family: 'Dosis', sans-serif; */
   font-family: 'Space Mono', monospace;
   font-weight: 500;
 }
 
-.profile_details_sub{
+.profile_details_sub {
   position: relative;
   width: fit-content;
   top: 1rem;
@@ -104,38 +153,202 @@ width: 100%;
   text-align: left;
 }
 
-.profile_summary_sub{
+.profile_summary_sub {
   font-family: 'Montserrat', sans-serif;
   text-align: justify;
-padding-right: 13rem;
-font-size: 1.3rem;
+  padding-right: 13rem;
+  font-size: 1.3rem;
 }
 
 /* .col-md-12 .profile_summary_sub{
   background-color: red;
 } */
-
 /* Skills Overview */
-#Skills_Overview
-{
+#Skills_Overview, #Professional_Experience, #Internships, #Skills, #Education, #Academic_Projects, #Additional_Info, #Certifications {
   padding-top: 6rem;
   text-align: center;
 }
 
-.Skills_Overview_div{
+.Skills_Overview_div {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
 }
 
-.Skills_Overview_img{
+.Skills_Overview_img {
   font-size: 5rem;
-      padding-bottom: 30px;
-      color: #5a7cfd;
-      padding-top: 5%;
+  padding-bottom: 30px;
+  color: #5a7cfd;
+  padding-top: 5%;
 }
 
-.Skills_Overview_element{
+.Skills_Overview_element {
   font-family: 'Raleway', sans-serif;
   font-size: 2rem;
   font-weight: 500;
+}
+
+/* Professional Experience */
+/* #Professional_Experience {
+  padding-top: 5rem;
+  text-align: center;
+} */
+
+.Professional_Experience_carousel{
+  /* font-family: 'Poppins', sans-serif; */
+}
+
+.h3_title{
+  font-weight: 400;
+  line-height: 2;
+}
+
+.h4_subtitle{
+  font-weight: 300;
+  line-height: 2.5;
+}
+
+.key_learnings {
+  width: fit-content;
+  text-align: justify;
+  position: relative;
+  left: 23rem;
+  line-height: 2.5;
+}
+
+/* Internships */
+
+/* #Internships{
+  text-align: center;
+  padding-top: 7rem;
+} */
+
+/* Skills */
+
+/* #Skills{
+  text-align: center;
+  padding-top: 7rem;
+} */
+.card{
+  margin: auto;
+/* width: 50%; */
+padding: 10px;
+padding-bottom: 1.5rem;
+border-radius: 10px;
+box-shadow: 1px 1px 10px rgb(0 0 0 / 50%);
+}
+
+.card1{
+  margin-bottom: 3rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+}
+
+.courseCard{
+  margin-bottom: 7rem;
+}
+
+.row{
+  margin-left: 3%;
+}
+/* Skills */
+
+/* .skill_title{
+  text-align: justify;
+}
+
+.skill_score{
+  text-align: right
+} */
+
+.contactMeImgDiv{
+  padding-left: 1rem;
+}
+
+.tempCard{
+  border-radius: 0.5rem;
+  background-color: #7AACFF;
+}
+.contactMeCard{
+  border-radius: 1rem;
+}
+
+.contactMeImg{
+  width: 85%;
+  border-radius: 1rem;
+}
+
+/* Footer */
+
+.bg-footer {
+    background-color: #33383c;
+    padding: 50px 0 30px;
+}
+.footer-heading {
+    letter-spacing: 2px;
+}
+
+.footer-link a {
+    color: #acacac;
+    line-height: 40px;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+.footer-link a:hover {
+    color: #1bbc9b;
+}
+
+.contact-info {
+    color: #acacac;
+    font-size: 14px;
+}
+
+.footer-social-icon {
+    font-size: 15px;
+    height: 34px;
+    width: 34px;
+    line-height: 34px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+}
+
+.facebook {
+    background-color: #4e71a8;
+    color: #ffffff;
+}
+
+.instagram {
+    background-color: #ffffff;
+    color: #e95950;
+}
+
+.linkedIn {
+    background-color: #0072b1;
+    color: #ffffff;
+}
+
+.apple {
+    background-color: #424041;
+    color: #ffffff;
+}
+
+.footer-alt {
+    color: #acacac;
+}
+
+.footer-heading {
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.footer-heading:after {
+    content: '';
+    width: 25px;
+    border-bottom: 1px solid #FFF;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    border-bottom: 1px solid #1bbc9b;
 }

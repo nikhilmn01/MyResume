@@ -39,16 +39,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap" rel="stylesheet">
   <!-- Skills Overview elements -->
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <!-- Professional Experience -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap" rel="stylesheet">
 
   <!-- Local Bootstrap Link -->
   <!-- <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css" /> -->
   <link rel="stylesheet" href="bootstrap-5.2.0-dist/css/bootstrap.css" />
 
   <!-- Local JQuery Link -->
-  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script> -->
 
   <!-- Local JS link -->
-  <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  <!-- <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script> -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   <!-- Local CSS link -->
   <link rel="stylesheet" href="styles.css">
@@ -97,10 +102,10 @@
               <a class="nav-link" href="#Academic_Projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Certifications">Certifications</a>
+              <a class="nav-link navElement" href="#Additional_Info">Additional Info</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link navElement" href="#Additional_Info">Additional Info</a>
+              <a class="nav-link" href="#Certifications">Certifications</a>
             </li>
             <li class="nav-item">
               <a class="nav-link navElement" href="#Contact_Me">Contact me</a>
@@ -112,16 +117,19 @@
       </nav>
     </div>
     <div class="row nvg_body">
-      <div class="col-lg-6 nvg_body_img">
+      <!-- <div class="col-lg-6 nvg_body_img">
         <img class="myPic" src="my_pic2.jpg" alt="">
-      </div>
-      <div class="col-lg-6 nvg_body_txt">
+      </div> -->
+      <div class="col-lg-12 nvg_body_txt">
         <div class="line1">
           Hey, I'm
         </div>
         <div class="line2">
           Nikhil M N
         </div>
+        <!-- <div class="line2">
+          Nikhil M N
+        </div> -->
         <div class="line3">
           I am a full-stack Developer
         </div>
@@ -179,11 +187,11 @@
         <h5 class="Skills_Overview_element">Database</h5>
         <p>MySQL, MongoDB</p>
       </div>
-      <div class="col-lg-4 col-md-12 ">
+      <!-- <div class="col-lg-4 col-md-12 ">
         <i class="fa-solid fa-cloud Skills_Overview_img"></i>
         <h5 class="Skills_Overview_element">Cloud</h5>
         <p>Microsoft Azure</p>
-      </div>
+      </div> -->
       <div class="col-lg-4 col-md-12 ">
         <i class="fa-solid fa-screwdriver-wrench Skills_Overview_img"></i>
         <h5 class="Skills_Overview_element">Testing</h5>
@@ -201,15 +209,23 @@
   <section id="Professional_Experience">
     <div class="Professional_Experience_div">
       <p class="title">Professional Experience</p>
-      <h3>Qualitest India Pvt Ltd | Siemens Healthineers Private Limited</h3>
-      <h4>Software Developer</h4>
-      <h6>August 2021 - Current | Bangalore</h6>
-      <ul><span>Key Learnings</span>
-        <li>Automation Testing of a multi-functional booking website</li>
-        <li>Development of automation scripts for various test cases without the use of user interface </li>
-        <li>Involved in development and improvisation of the tools used in the application </li>
-        <li>Got and idea about how the functionalities can be improved and altered, so that the application is improvised and compatible</li>
-      </ul>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item Professional_Experience_carousel active">
+            <h3 class="h3_title">Qualitest India Pvt Ltd | Siemens Healthineers Private Limited</h3>
+            <h4 class="h4_subtitle">Software Developer</h4>
+            <h6 class="h4_subtitle">August 2021 - Current | Bangalore</h6>
+            <div class="key_learnings">
+              <ul><span>Key Learnings</span>
+                <li>Automation Testing of a multi-functional booking website</li>
+                <li>Development of automation scripts for various test cases without the use of user interface </li>
+                <li>Involved in development and improvisation of the tools used in the application </li>
+                <li>Got and idea about how the functionalities can be improved and altered, so that the application is improvised and compatible</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -217,264 +233,452 @@
   <section id="Internships">
     <div class="Internships_div">
       <p class="title">Internships</p>
-      <h3>Advanced Digital Switching Systems and Optical Fiber Communication</h3>
-      <h4>BSNL, RTTC | Mysore</h4>
-      <ul><span>Key Learnings</span>
-        <li>Basic Building blocks and functionalities and Markov chain analysis for hardware reliability.</li>
-        <li>Enhanced root-cause and metrics model methodology for improving software reliability.</li>
-        <li>Various aspects of digital switching Systems, architecture, internal communications and controls.</li>
-      </ul>
-      <h3>Sensors in Wheel and Axel Manufacturing</h3>
-      <h4>Rail Wheel Factory (RWF) | Bengaluru</h4>
-      <ul><span>Key Learnings</span>
-        <li>Brief working of automated machines used in the manufacturing process.</li>
-        <li>Pressure sensors (Brinell Ball) used to measure the hardness of the wheel.</li>
-        <li>Temperature sensors used in heating furnaces.</li>
-      </ul>
+      <div id="Internships_carousel" class="carousel carousel-dark slide" data-ride="carousel" data-interval="5000" data-pause="hover">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h3 class="h3_title">Advanced Digital Switching Systems and Optical Fiber Communication</h3>
+            <h4 class="h4_subtitle">BSNL, RTTC | Mysore</h4>
+            <div class="key_learnings">
+              <ul><span>Key Learnings</span>
+                <li>Basic Building blocks and functionalities and Markov chain analysis for hardware reliability.</li>
+                <li>Enhanced root-cause and metrics model methodology for improving software reliability.</li>
+                <li>Various aspects of digital switching Systems, architecture, internal communications and controls.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <h3 class="h3_title">Sensors in Wheel and Axel Manufacturing</h3>
+            <h4 class="h4_subtitle">Rail Wheel Factory (RWF) | Bengaluru</h4>
+            <div class="key_learnings">
+              <ul><span>Key Learnings</span>
+                <li>Brief working of automated machines used in the manufacturing process.</li>
+                <li>Pressure sensors (Brinell Ball) used to measure the hardness of the wheel.</li>
+                <li>Temperature sensors used in heating furnaces.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#Internships_carousel" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#Internships_carousel" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
   </section>
+
+
   <!--*****************Skills*****************  -->
   <section id="Skills">
     <div>
       <p class="title">Skills</p>
-      <ul class="skills_table_1">
-        <li><span class="skill_title"> HTML & CSS</span>
-          <span class="skill_score">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </span>
-        </li>
-        <li><span class="skill_title"> Java Programming</span>
-          <span class="skill_score">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </span>
-        </li>
-
-        <li><span class="skill_title"> C# Programming</span>
-          <span class="skill_score">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </span>
-        </li>
-
-        <li><span class="skill_title"> Python Programming</span>
-          <span class="skill_score">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </span>
-        </li>
-        <li><span class="skill_title"> Selenium WebDriver</span>
-          <span class="skill_score">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </span>
-        </li>
-        <li><span class="skill_title"> Bootstrap Frameworks</span>
-          <span class="skill_score">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-          </span>
-        </li>
-        <li><span class="skill_title"> JavaScript</span>
-          <span class="skill_score">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-          </span>
-        </li>
-        <li><span class="skill_title"> JQuery</span>
-          <span class="skill_score">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-          </span>
-        </li>
-        <li><span class="skill_title"> Node.js</span>
-          <span class="skill_score">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-          </span>
-        </li>
-      </ul>
-    </div>
-    <div>
-      <ul class="skills_table_2">
-        <li><span class="skill_title"> APIs</span>
-          <span class="skill_score">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-          </span>
-        </li>
-        <li><span class="skill_title"> EJS</span>
-          <span class="skill_score">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-          </span>
-        </li>
-        <li><span class="skill_title"> SQL</span>
-          <span class="skill_score">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-          </span>
-        </li>
-        <!-- <li><span class="skill_title"> MongoDB</span>
-          <span class="skill_score">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-          </span>
-        </li> -->
-        <!-- <li><span class="skill_title"> Mongoose</span>
-          <span class="skill_score">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-          </span>
-        </li> -->
-        <!-- <li><span class="skill_title"> React.js</span>
-          <span class="skill_score">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-          </span>
-        </li> -->
-        <!-- <li><span class="skill_title"> RestAssured</span>
-          <span class="skill_score">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-          </span>
-        </li> -->
-      </ul>
+      <div class="container text-start">
+        <div class="row">
+          <div class="col">
+            <div class="container text-start">
+              <div class="row">
+                <div class="col">
+                  <span class="skill_title"> HTML & CSS</span>
+                </div>
+                <div class="col">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <span class="skill_title"> C# Programming</span>
+                </div>
+                <div class="col">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <span class="skill_title"> Python Programming</span>
+                </div>
+                <div class="col">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <span class="skill_title">JavaScript</span>
+                </div>
+                <div class="col">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <span class="skill_title"> NUnit Framework</span>
+                </div>
+                <div class="col">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <span class="skill_title"> Python Selenium WebDriver</span>
+                </div>
+                <div class="col">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <span class="skill_title">APIs</span>
+                </div>
+                <div class="col">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <span class="skill_title"> REST API Testing</span>
+                </div>
+                <div class="col">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <span class="skill_title"> MSSQL</span>
+                </div>
+                <div class="col">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <span class="skill_title"> ISQTB</span>
+                </div>
+                <div class="col">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="container text-start">
+              <div class="row">
+                <div class="col">
+                  <span class="skill_title"> Java Programming</span>
+                </div>
+                <div class="col">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <span class="skill_title"> Java Selenium WebDriver</span>
+                </div>
+                <div class="col">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <span class="skill_title"> C# Selenium WebDriver</span>
+                </div>
+                <div class="col">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <span class="skill_title"> BootStrap 5</span>
+                </div>
+                <div class="col">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <span class="skill_title"> JQuery</span>
+                </div>
+                <div class="col">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <span class="skill_title"> BDD With Selenium</span>
+                </div>
+                <div class="col">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <span class="skill_title"> TestNG Framework</span>
+                </div>
+                <div class="col">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <span class="skill_title"> NodeJS</span>
+                </div>
+                <div class="col">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <span class="skill_title"> EJS</span>
+                </div>
+                <div class="col">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <span class="skill_title"> MS Azure DevOps</span>
+                </div>
+                <div class="col">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <!-- *****************Education***************** -->
   <section id="Education">
     <div class="MEng">
       <p class="title">Education</p>
-      <h2>MEng in Electronics and Computer Engineering, Major in IoT</h2>
-      <h4>Dublin City University</h4>
-      <h6>2019-2021 | Dublin</h6>
-      <ul><span>Key Modules</span>
-        <li>OOP with Embedded Systems</li>
-        <li>Connected Embedded Systems</li>
-        <li>Data Analysis and Machine Learning</li>
-        <li>Computer Vision</li>
-      </ul>
+      <div id="Education_Carousel" class="carousel carousel-dark slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h3 class="h3_title">MEng in Electronics and Computer Engineering, Major in IoT</h3>
+            <h4 class="h4_subtitle">Dublin City University</h4>
+            <h6 class="h4_subtitle">2019-2021 | Dublin</h4>
+              <div class="key_learnings">
+                <ul><span>Key Modules</span>
+                  <li>OOP with Embedded Systems.</li>
+                  <li>Connected Embedded Systems.</li>
+                  <li>Data Analysis and Machine Learning.</li>
+                  <li>Computer Vision.</li>
+                </ul>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <h3 class="h3_title">BE in Electronics and Communication Engineering</h3>
+            <h4 class="h4_subtitle">Sai Vidya Institute of Technology</h4>
+            <h6 class="h4_subtitle">CGPA : 7.58 | 2015-2019 | Rajankunte</h4>
+              <div class="key_learnings">
+                <ul><span>Key Modules</span>
+                  <li>Field Theory</li>
+                  <li>Signals and Systems</li>
+                  <li>Information Theory Coding</li>
+                  <li>Digital Communication</li>
+                </ul>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <h3 class="h3_title"> PUC </h3>
+            <h4 class="h4_subtitle">Nagarjuna Pre-University College</h4>
+            <h6 class="h4_subtitle">Percentage : 84.5% | 2013-2015 | Rajankunte</h4>
+              <div class="key_learnings">
+                <ul><span>Branch</span>
+                  <li>Physics Chemistry Maths Electronics (PCME)</li>
+                </ul>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#Education_Carousel" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#Education_Carousel" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
-    <div class="BE">
-      <h2>BE in Electronics and Communication Engineering</h2>
-      <h4>Sai Vidya Institute of Technology</h4>
-      <h5>CGPA : 7.58 </h5>
-      <h6>2015-2019 | Rajankunte</h6>
-      <ul><span>Key Modules</span>
-        <li>Field Theory</li>
-        <li>Signals and Systems</li>
-        <li>Information Theory Coding</li>
-        <li>Digital Communication</li>
-      </ul>
-    </div>
-    <div class="PU">
-      <h2> PUC </h2>
-      <h4>Nagarjuna Pre-University College</h4>
-      <h5>Percentage : 84.5% </h5>
-      <h6>2013-2015 | Rajankunte</h6>
-      <ul><span>Branch</span>
-        <li>Physics Chemistry Maths Electronics (PCME)</li>
-      </ul>
-    </div>
-
-    </div>
-
   </section>
+
   <!-- *****************Academic Projects***************** -->
   <section id="Academic_Projects">
-    <h2>Academic Projects</h2>
-    <div class="DCU">
-      <h2>Low Power Motion Detection for Long Range IoT Communications</h2>
-      <h4>Dublin City University</h4>
-      <ul><span>Key Points</span>
-        <li>An indoor motion sensor design was developed while interfacing it to TI board, CC13125R and a SIMCom cellular module, SIM800H, by which the range was made unlimited.</li>
-        <li>A working model which was developed was capable of sensing the motion within the range of 30 meters which triggered the alarm signal of the main board to notify the motion in the room to the user.</li>
-        <li>The overall design aimed to conserve the battery power while trading off with the sensing flexibility.</li>
-        <li>Learnt how to listen to every small detail provided in the guidance and not miss out any information provided by the guide.</li>
-      </ul>
-
+    <div class="MEng">
+      <p class="title">Academic Projects</p>
+      <div id="Academic_Projects_Carousel" class="carousel carousel-dark slide" data-ride="carousel" data-interval="5000" data-pause="hover">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h3 class="h3_title">Low Power Motion Detection for Long Range IoT Communications</h3>
+            <h4 class="h4_subtitle">Dublin City University</h4>
+            <div class="key_learnings">
+              <ul><span>Key Points</span>
+                <li>An indoor motion sensor design was developed while interfacing it to TI board, CC13125R and a SIMCom cellular module, SIM800H.</li>
+                <li>A working model which was developed was capable of sensing the motion within the range of 30 meters.</li>
+                <li>The triggered alarm signal was used to notify the motion to the user.</li>
+                <li>The overall design aimed to conserve the battery power while trading off with the sensing flexibility.</li>
+                <li>Learnt how to listen to every small detail provided in the guidance and not miss out any information provided by the guide.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <h3 class="h3_title">FPGA Controlled Multiphase Buck Regulator as a Spacecraft Battery Charger</h3>
+            <h4 class="h4_subtitle">Indian Space Research Organization (ISRO) | Department of Space, Government of India</h4>
+            <div class="key_learnings">
+              <ul><span>Key Points</span>
+                <li>Battery charging regulator to charge spacecraft batteries was designed with light weight buck regulator setup.</li>
+                <li>It is controlled by the software (using VHDL) to create a flexibility of upgradation for future days.</li>
+                <li>Unique working model was presented which was approved by ISRO scientists</li>
+                <li>This design shall be used for LEO and MEO satellites in the upcoming launches by ISRO.</li>
+                <li>Patiently dealt with different types of people in the department and learnt about different types of approaches to acquire the required information.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#Academic_Projects_Carousel" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#Academic_Projects_Carousel" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
-    <div class="ISRO">
-      <h2>FPGA Controlled Multiphase Buck Regulator as a Spacecraft Battery Charger</h2>
-      <h4>Indian Space Research Organization (ISRO) | Department of Space, Government of India</h4>
-      <ul><span>Key Points</span>
-        <li>Battery charging regulator to charge spacecraft batteries was designed with light weight buck regulator setup which is controlled by the software (using VHDL) to create a flexibility of upgradation for future days.</li>
-        <li>Unique working model was presented which was approved by ISRO scientists</li>
-        <li>This design shall be used for LEO and MEO satellites in the upcoming launches by ISRO.</li>
-        <li>Patiently dealt with different types of people in the department and learnt about different types of approaches for different people to acquire the required information.</li>
-      </ul>
-    </div>
-
   </section>
 
   <!-- *****************Additional Information***************** -->
   <section id="Additional_Info">
-    <h2>Additional Information</h2>
-    <div class="Publication">
-      <h2>Publication</h2>
-      <h4>Auditory Temporal Resolution based Psychophysical Evaluation of Healthy Individuals Exposed to Occupational Noise and Solvents</h4>
-      <h6>Sanjay H S, Prithvi B S, Nikhil M N | WSEAS Transactions on Acoustics and Music, Vol 5(1), 20-30</h4>
+    <h2 class="title">Additional Information</h2>
+    <div class="row">
+      <div class="col-lg-6 col-md-12 Publication">
+        <div class="card card1">
+          <div class="card-header">
+            <h3>Publication</h3>
+          </div>
+          <div class="card-body">
+            <p>Auditory Temporal Resolution based Psychophysical Evaluation of Healthy Individuals Exposed to Occupational Noise and Solvents</p>
+            <p>Sanjay H S, Prithvi B S, Nikhil M N | WSEAS Transactions on Acoustics and Music, Vol 5(1), 20-30</p>
+            <div class="d-grid">
+              <!-- <button type="button" class="btn btn-lg btn-outline-dark gap-*">Link</button> -->
+              <a href="http://www.wseas.org/multimedia/journals/acoustics/2018/a085919-091.php" class="btn btn-lg btn-outline-dark gap-*">Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 Publication">
+        <div class="card card1">
+          <div class="card-header">
+            <h3>Mini-Project</h3>
+          </div>
+          <div class="card-body">
+            <p>Interfacing dc motor with ARM LPC2148 using PWM technique</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-12 Publication">
+        <div class="card card1">
+          <div class="card-header">
+            <h3>Conferences</h3>
+          </div>
+          <div class="card-body">
+            <p>Development of software based on audiometer to access the hearing threshold in human beings | National Conference on Emerging Trends in Communication and Networking conducted by S J C Institute of Technology | Bengaluru</p>
+            <p>Topical transcends in science, technology & management | International conference organized by Sai Vidya Institute of Technology (SVIT) | Bengaluru</p>
+            <p>Nanotechnology and Photonics | SVIT IEEE Photonics and EMBS Student branch | Bengaluru</p>
+          </div>
+        </div>
+      </div>
 
     </div>
 
-    <div class="Co_CurricularActivities">
-      <h2>Co-Curricular Acivities</h2>
-      <h4>Mini-Project</h4>
-      <h6>Interfacing dc motor with ARM LPC2148 using PWM technique</h6>
 
     </div>
 
-    <div class="Conferences">
+    <!-- <div class="Conferences">
       <h2>Conferences</h2>
       <ul>
         <li>Development of software based on audiometer to access the hearing threshold in human beings | National Conference on Emerging Trends in Communication and Networking conducted by S J C Institute of Technology | Bengaluru</li>
@@ -482,55 +686,191 @@
         <li>Nanotechnology and Photonics | SVIT IEEE Photonics and EMBS Student branch | Bengaluru</li>
       </ul>
 
-    </div>
+    </div> -->
 
     <!-- *****************Certifications***************** -->
   </section>
   <section id="Certifications">
-    <h2>Certifications</h2>
-    <div class="Certifications_div">
-
-      <div class="Certifications_element">
-        <i class="fa-solid fa-window-maximize"></i>
-        <h5>The Complete Software Testing Bootcamp</h5>
+    <h2 class="title">Certifications</h2>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="card courseCard" style="width: 18rem;">
+          <img src="Courses_Cards\WebDev.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">The Complete Web Development Bootcamp</p>
+          </div>
+        </div>
       </div>
-      <div class="Certifications_element">
-        <i class="fa-solid fa-window-maximize"></i>
-        <h5>ISTQB Foundation Level Complete Training</h5>
+      <div class="col-lg-4 col-md-6">
+        <div class="card courseCard" style="width: 18rem;">
+          <img src="Courses_Cards\python.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Learn Python Programming Masterclass</p>
+          </div>
+        </div>
       </div>
-      <div class="Certifications_element">
-        <i class="fa-solid fa-window-maximize"></i>
-        <h5>The Complete Java Certification Course</h5>
+      <div class="col-lg-4 col-md-6">
+        <div class="card courseCard" style="width: 18rem;">
+          <img src="Courses_Cards\java.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">The Complete Java Certification Course</p>
+          </div>
+        </div>
       </div>
-      <div class="Certifications_element">
-        <i class="fa-solid fa-window-maximize"></i>
-        <h5>Microsoft SQL for Beginners</h5>
+      <div class="col-lg-4 col-md-6">
+        <div class="card courseCard" style="width: 18rem;">
+          <img src="Courses_Cards\MsSql.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Microsoft SQL for Beginners</p>
+          </div>
+        </div>
       </div>
-      <div class="Certifications_element">
-        <i class="fa-solid fa-window-maximize"></i>
-        <h5>HTML Tutorial</h5>
+      <div class="col-lg-4 col-md-6">
+        <div class="card courseCard" style="width: 18rem;">
+          <img src="Courses_Cards\Selenium.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Selenium WebDriver with Java -Basics to Advanced+Frameworks</p>
+          </div>
+        </div>
       </div>
-      <div class="Certifications_element">
-        <i class="fa-solid fa-window-maximize"></i>
-        <h5>CSS Tutorial</h5>
+      <div class="col-lg-4 col-md-6">
+        <div class="card courseCard" style="width: 18rem;">
+          <img src="Courses_Cards\bootstrap5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">BootStrap 5 & jQuery</p>
+          </div>
+        </div>
       </div>
-      <div class="Certifications_element">
-        <i class="fa-solid fa-window-maximize"></i>
-        <h5>Selenium WebDriver with Java -Basics to Advanced+Frameworks</h5>
+      <div class="col-lg-4 col-md-6">
+        <div class="card courseCard" style="width: 18rem;">
+          <img src="Courses_Cards\git.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">git and GitHub for beginners</p>
+          </div>
+        </div>
       </div>
-      <div class="Certifications_element">
-        <i class="fa-solid fa-window-maximize"></i>
-        <h5>Learn Python Programming Masterclass</h5>
+      <div class="col-lg-4 col-md-6">
+        <div class="card courseCard" style="width: 18rem;">
+          <img src="Courses_Cards\linux.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Linux for beginners</p>
+          </div>
+        </div>
       </div>
-
+      <div class="col-lg-4 col-md-6">
+        <div class="card courseCard" style="width: 18rem;">
+          <img src="Courses_Cards\SocketProgramming.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Socket Programming</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card courseCard" style="width: 18rem;">
+          <img src="Courses_Cards\Computer_vision.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Computer Vision with Python</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card courseCard" style="width: 18rem;">
+          <img src="Courses_Cards\c++.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">C++ Programming Bootcamp</p>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <!-- *****************Contact Me***************** -->
   </section>
+
+
+  <!-- *****************Contact Me***************** -->
+
   <section id="Contact_Me">
-    <h2>Contact Me</h2>
+    <section class="container mt-5">
+      <form action="mail.php" method="post">
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-sm-12 mb-4 col-lg-8 mx-auto contactMeCardDiv">
+            <!--Form with header-->
+            <div class="card contactMeCard">
+              <div class="card-header p-0">
+                <div class="text-white text-center tempCard py-2">
+                  <h3><i class="fa fa-envelope"></i> Contact Me</h3>
+                  <p class="m-0">Let's get in touch!</p>
+                </div>
+              </div>
+              <div class="card-body p-3">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label> Your name </label>
+                      <div class="input-group">
+                        <input value="" type="text" name="name" class="form-control" id="inlineFormInputGroupUsername" placeholder="Your name">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label>Your email</label>
+                      <div class="input-group mb-2 mb-sm-0">
+                        <input type="email" value="" name="email" class="form-control" id="inlineFormInputGroupUsername" placeholder="Email">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label>Message</label>
+                      <div class="input-group mb-2 mb-sm-0">
+                        <input type="text" class="form-control" name="mesg">
+                      </div>
+                  </div>
+
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-4 contactMeImgDiv">
+                    <img class="contactMeImg" src="my_pic.jpg" aria-hidden="false" tabindex="0" alt="...">
+                  </div>
+                </div>
+
+
+                </div>
+                <div class="text-center">
+                  <input type="submit" name="submit" value="Submit" class="btn btn-lg btn-outline-primary gap-* rounded-10 py-2">
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </form>
+      <!--Contact heading-->
+
+    </section>
 
   </section>
+
+  <footer class="section bg-footer">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-4 mx-left">
+                      <div class="">
+                          <h6 class="footer-heading text-uppercase text-white">Contact Info</h6>
+                          <p class="contact-info mt-4">Please feel free to contact me for further queries</p>
+                          <p class="contact-info">+91 8892535763</p>
+                        <p class="contact-info">nikhilmn123n@gmail.com</p>
+                          <div class="mt-5">
+                              <ul class="list-inline">
+                                  <li class="list-inline-item"><a href="https://www.facebook.com/nikhil.mn.39"><i class="fab facebook footer-social-icon fa-facebook-f"></i></i></a></li>
+                                  <li class="list-inline-item"><a href="https://www.instagram.com/nikhilmn01/"><i class="fab instagram footer-social-icon fa-brands fa-instagram"></i></i></a></li>
+                                  <li class="list-inline-item"><a href="https://www.linkedin.com/in/nikhil-m-n-68751b168"><i class="fab linkedIn footer-social-icon fa-brands fa-linkedin"></i></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </footer>
 
 </body>
 <!-- End of Body Section -->
